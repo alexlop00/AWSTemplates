@@ -1,0 +1,18 @@
+#Creator: Alexander Lopez
+#Purpose: Automate EC2 Instance Deployment with AWS CloudFormation
+#Assumptions: Preconfigured VPC, Key Pair, IAM Role, Security Group
+
+Resources:
+  EC2Instances: #Logical ID
+    Type: AWS::EC2::Instance
+    Properties:
+      AvailabilityZone: 
+      SubnetId: 
+      KeyName: 
+      Tags:
+        - Key: "Name"
+          Value: 
+      InstanceType:
+      ImageId: 
+      IamInstanceProfile: 
+      SecurityGroupIds: 
