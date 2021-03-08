@@ -11,7 +11,7 @@ Resources:
       KeyName: 
       Tags:
         - Key: "Name"
-          Value: 
+          Value: "Value" 
       InstanceType:
       ImageId: 
       IamInstanceProfile: 
