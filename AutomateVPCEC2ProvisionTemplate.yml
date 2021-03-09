@@ -2,7 +2,7 @@
 #Purpose: Automate VPC & EC2 Deployment
 #Assumptions: Preconfigured Iam Policy, Key Pair, Image
 #Scope: Provisions VPC (including Subnet, Route Table, Routes, Internet Gateway, Network ACL), Security Group, EC2 Instance, Associates EIP to EC2 Instance
-#WARNING: For the scope of this example, SSH is set to 0.0.0.0/0. Adjust prior to using in production. 
+#Adjust Values at the Indicator "SET VALUE"
 
 Resources:
   ############################# VPC ###########################  
